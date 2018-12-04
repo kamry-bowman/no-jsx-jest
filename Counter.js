@@ -1,4 +1,4 @@
-const React = require('react');
+import React from 'react';
 
 class Counter extends React.Component {
   constructor(props) {
@@ -19,4 +19,4 @@ class Counter extends React.Component {
   }
 }
 
-module.exports = Counter;
+export default Counter;
